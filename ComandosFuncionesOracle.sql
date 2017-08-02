@@ -376,6 +376,7 @@ where country_id like 'AR' and region_id = 2
 -- 64 inner join on
 -- inner join permite enlazar datos entre tablas para realizar consultas
 -- siempre y cuando las tablas tengan algun termino en comun 
+-- igualando las tablas con dicho dato en comun en el on
 select job_history.start_date,
         jobs.job_title
 from job_history 
